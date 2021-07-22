@@ -814,12 +814,9 @@ img {
   margin-bottom: 20px;
 }
 .form-label {
-  font-family: Roboto;
-  font-style: 400;
   font-weight: normal;
   font-size: 12px;
   line-height: 1.17;
-
   letter-spacing: 0.01em;
   color: #757575;
 }
@@ -833,7 +830,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   outline: none;
   padding-left: 40px;
-
+  margin-top: 4px;
   transition-property: border-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -885,7 +882,7 @@ img {
   height: 95px;
   padding-top: 12px;
   padding-left: 16px;
-
+  margin-top: 4px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
