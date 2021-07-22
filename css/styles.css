@@ -155,6 +155,7 @@ img {
 .contacts {
   display: flex;
   margin-left: auto;
+  align-items: baseline;
 }
 
 .contacts .link {
@@ -174,10 +175,6 @@ img {
 .contacts .link:hover,
 .contacts .link:focus {
   color: var(--accent-color);
-}
-.contacts-svg {
-  display: flex;
-  align-items: center;
 }
 
 .contacts-icon {
@@ -514,7 +511,7 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.01em;
 }
 .under-street:not(:last-child) {
   margin-bottom: 8px;
@@ -547,7 +544,7 @@ img {
 }
 
 .join-block {
-  margin-left: 70px;
+  margin-left: 60px;
 }
 
 .join-content {
@@ -568,7 +565,6 @@ img {
 }
 .subscribe-container {
   position: relative;
-  margin-top: 12px;
   margin-left: 93px;
 }
 .subscribe-form {
@@ -804,13 +800,13 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #000;
+  padding-top: 40px;
 }
 .form {
-  padding: 40px 40px;
+  padding: 12px 40px 40px 40px;
 }
 .form-field {
   position: relative;
-  margin-top: 10px;
   margin-bottom: 20px;
 }
 .form-label {
