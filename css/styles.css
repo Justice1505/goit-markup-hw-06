@@ -766,8 +766,6 @@ img {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 528px;
-  height: 581px;
   background: var(--tb-color);
   transform: translate(-50%, -50%);
   animation-name: changemodalbtn;
@@ -808,7 +806,7 @@ img {
   color: #000;
 }
 .form {
-  padding: 40px 30px;
+  padding: 40px 40px;
 }
 .form-field {
   position: relative;
